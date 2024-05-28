@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @keyframes moveBox {
+        from {
+            top: 0px;
+            background-color: blueviolet;
+        }
+        to {
+            top: 300px;
+            background-color: aqua;
+        }
+    }
+
+    div {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: relative;
+        animation-name: moveBox;
+        animation-duration: 3s;
+        animation-fill-mode: backwards;
+        animation-delay: 2s;
+    }
+</style>
+<body>
+    <h1>Animation</h1>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi asperiores quidem unde modi, sed ducimus dolores accusamus autem laborum sint eos voluptate, sunt dolor molestias doloribus nisi tempora inventore? Illum!</p>
+
+    <div></div>
+</body>
+</html>
